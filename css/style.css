@@ -42,13 +42,15 @@ ul li.active a{
    padding-bottom: 10%;
    animation: blinking 1.5s infinite;
    color: aquamarine;
-   background-color: cornflowerblue;
+   /* display: inline; */
+   background: #d2ff07;
+   box-shadow: .5em 0 0 #FFC107, -.5em 0 0 #FFC107;
    
 }
 @keyframes blinking {
-  0%{ color: red;}
-  47%{ color: #000;}
-  62%{ color: transparent;}
+  0%{ color: aquamarine;}
+  47%{ color: aquamarine;}
+  62%{ color: aquamarine;}
   97%{ color: transparent;}
-  100%{ color: #000;}
+  100%{ color: transparent;}
 }
